@@ -35,10 +35,10 @@ function read(){
             "<td>" + cliente.nome + "</td>" +
             "<td>" + cliente.telefone +"</td>"+
             "<td>"+
-            "<button type = 'button' class='btn btn-primary btn-sm alterar' id='alterar"+cliente.id+
-            "'>Alterar</button>"+
+            "<button type = 'button' class='btn btn-primary btn-sm alterar mr-1' id='alterar"+cliente.id+
+            "'>Alterar <i class='far fa-edit'></i></button>"+
             "<button type = 'button' class ='btn btn-danger excluir btn-sm' id='"+cliente.id+
-            "'>Excluir</button></td>"
+            "'>Excluir <i class='far fa-trash-alt'></i></button></td>"
             "</tr>";
             $("tbody").append(html);
         });

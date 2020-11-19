@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css">
     <script src="js.js"></script>
-    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="../../css/estilos.css">
     <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Consulta</title>
 </head>
 <body>
+    <h2>Consultas</h2>
+<hr>
     <div class="container m-3">
         <form action="">
             <input type="hidden" id="id">
             <div class="form-group">
+                <i class="far fa-calendar-alt"></i>
                 <label for="data_consulta">Data da Consulta</label>
                 <input type="date" class="form-control" id="data_consulta" placeholder="Selecione uma Data">
-                <label for="id_cliente">Id Cliente</label>
+                <i class="far fa-user"></i>
+                <label for="id_cliente">Cliente</label>
                 <select name="id_cliente" id="id_cliente" class ="form-control">
                 </select>
-                <label for="id_dentista">Id Dentista</label>
+                <i class="fas fa-tooth"></i>
+                <label for="id_dentista">Dentista</label>
                 <select name="id_dentista" id="id_dentista" class="form-control">
                 </select>
             </div>
 
-            <button type="submit" id="salvar" class="btn btn-success" style="margin-bottom: 30px">Salvar</button>
-            <button type="button" id="alterar" class=" btn btn-secondary" style="display:none">Alterar</button>
+            <button type="submit" id="salvar" class="btn btn-success" style="margin-bottom: 30px">Salvar <i class="far fa-save"></i></button>
+            <button type="button" id="alterar" class=" btn btn-secondary" style="display:none">Alterar <i class="far fa-save"></i></button>
         </form>
         <table class="table table-striped table-bordered mt-3 " >
             <thead>

@@ -27,10 +27,10 @@ function read(){
         "<td>" + consulta.cliente + "</td>" +
         "<td>" + consulta.dentista +"</td>" +
         "<td>" +
-        "<button type ='button' class='btn btn-primary btn-sm alterar' id='alterar" + consulta.id +
-        "'>Alterar</button>"+
+        "<button type ='button' class='btn btn-primary btn-sm alterar mr-1' id='alterar" + consulta.id +
+        "'>Alterar <i class='far fa-edit'></i></button>"+
         "<button type ='button' class='btn btn-danger excluir btn-sm' id='"+ consulta.id +
-        "'>Excluir</button></td>"
+        "'>Excluir <i class='far fa-trash-alt'></i></button></td>"
         "</tr>";
     })
     $("tbody").html(html);
@@ -90,12 +90,3 @@ $(document).on("click",".excluir", function(event){
         });
     }
 })
-
-$(document).ready( function () {
-    $('table').DataTable({
-        "language": {
-            "url": "https://cdn.datatables.net/plug-ins/1.10.21/i18n/Portuguese-Brasil.json"
-        }
-        } 
-    );
-} );

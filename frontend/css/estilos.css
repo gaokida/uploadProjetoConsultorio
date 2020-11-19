@@ -1,0 +1,19 @@
+.form-control{
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+.form-control:focus{
+    background-color: #eee;
+    border: none;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
