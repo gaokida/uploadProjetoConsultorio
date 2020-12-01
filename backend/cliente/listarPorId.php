@@ -1,4 +1,5 @@
 <?php
+    require_once("../session.php");
     require_once("../conexao.php");
     $cliente_id = filter_input(INPUT_GET,"id");
     $consulta = "SELECT * FROM cliente ";

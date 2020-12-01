@@ -1,5 +1,6 @@
 <?php
     require_once("../conexao.php");
+    require_once("../session.php");
 
     $id = filter_input(INPUT_GET,'id');
     $excluir = "DELETE FROM cliente ";

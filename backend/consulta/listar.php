@@ -1,4 +1,5 @@
 <?php
+    require_once("../session.php");
     require_once("../conexao.php");
 
     $listar = "select d.nome as dentista, cl.nome as cliente, c.*from consulta c ";

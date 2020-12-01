@@ -1,4 +1,5 @@
 <?php
+    require_once("../session.php");
     require_once("../conexao.php");
     $data_consulta = filter_input(INPUT_POST, 'data_consulta');
     $id_cliente = filter_input(INPUT_POST, 'id_cliente');

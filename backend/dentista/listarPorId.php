@@ -1,4 +1,5 @@
 <?php
+require_once("../session.php");
 require_once("../conexao.php");
 $id = filter_input(INPUT_GET,'id');
 
