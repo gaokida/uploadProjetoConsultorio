@@ -1,0 +1,59 @@
+.main{
+    background-image: url(../image/consultorio_background3.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+.title{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.box{
+   
+    background-image: linear-gradient(#A5FAE7, #CD74FF);
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.icon{
+    border-radius: 100%;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    margin-left: 140px;
+}#dente{
+
+    font-size: 60px;   
+    margin-top: 30px;
+}
+h3{
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.fields{
+    margin-top: 40px;
+}
+.usuario{
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bolder;
+}
+.btn{
+    margin-top: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    
+}
